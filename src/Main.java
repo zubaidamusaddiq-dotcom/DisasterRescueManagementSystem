@@ -9,5 +9,13 @@ class disaster{
         this.city=city;
         this.severity=severity;
     }
+    @Override
+    public String toString() {
+        return "ID: " + id +
+                ", Type: " + type +
+                ", City: " + city +
+                ", Severity: " + severity;
+    }
+
 
 }
